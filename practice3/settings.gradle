@@ -1,0 +1,31 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "practice"
+include ':app'
+include ':ch6_view'
+include ':ch8_event'
+include ':ch9_resource'
+include ':ch10_notification'
+include ':app:hongdroid'
+include ':hongdroid3'
+include ':hongdroid4_imagekt'
+include ':hongdroid5_listview'
+include ':hongdroid6_navigation'
+include ':hongdroid7_sharedkt'
+include ':hongdroid8_webviewkt'
+include ':hongdroid9_camera'
+include ':hongdroid10_recyclerviewkt'
+include ':hongdroid11_fragmentkt'
+include ':hongdroid12_logkt'

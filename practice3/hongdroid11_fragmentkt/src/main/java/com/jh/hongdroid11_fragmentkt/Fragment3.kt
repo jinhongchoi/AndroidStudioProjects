@@ -1,0 +1,17 @@
+package com.jh.hongdroid11_fragmentkt
+
+import android.os.Bundle
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
+import androidx.fragment.app.Fragment
+
+class Fragment3 : Fragment(){
+
+    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
+        val view = inflater.inflate(R.layout.frag3, container, false)
+    // main activity에서 setContentview랑 같은 기능! -> fragement에선 이렇게 사용
+
+        return view
+    }
+}
