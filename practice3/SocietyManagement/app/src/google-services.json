@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "27610718778",
+    "project_id": "societymanagement-71ddf",
+    "storage_bucket": "societymanagement-71ddf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:27610718778:android:d345c01fdfede626f0cb03",
+        "android_client_info": {
+          "package_name": "com.jh.societymanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "27610718778-mo8lvupsh6o04eihltgj9ln0reb9gbs3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jh.societymanagement",
+            "certificate_hash": "45153593c700a1200c5270201029dde2700d4e84"
+          }
+        },
+        {
+          "client_id": "27610718778-0lojgrphkv15kakqv55ef4i3gohfihju.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuxEbmmAe_Gb-mjyGjZ5oFYG3RRHcIr_o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "27610718778-0lojgrphkv15kakqv55ef4i3gohfihju.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
