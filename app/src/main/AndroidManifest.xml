@@ -32,6 +32,11 @@
             android:exported="false">
 
         </activity>
+        <activity
+            android:name=".TInsertActivity"
+            android:exported="false">
+
+        </activity>
     </application>
 
 </manifest>

@@ -36,7 +36,8 @@ public class MainActivity extends AppCompatActivity {
         btn_TInsert.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent= new Intent(MainActivity.this, TInsertActivity.class);
+                Intent intent2= new Intent(MainActivity.this, TInsertActivity.class);
+                startActivity(intent2);
             }
         });// end btn_TInsert
 
