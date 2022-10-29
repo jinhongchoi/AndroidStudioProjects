@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //로그아웃하기
-                mFirebaseAuth.signOut();
+//                mFirebaseAuth.signOut(); -> 이게 있어서 파괴가 안됬었음! 이유 알아보기!
                 Intent intent= new Intent(MainActivity.this, LoginActivity.class);
                 startActivity(intent);
                 finish();
