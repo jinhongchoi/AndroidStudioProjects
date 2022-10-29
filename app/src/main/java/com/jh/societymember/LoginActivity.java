@@ -48,6 +48,13 @@ public class LoginActivity extends AppCompatActivity {
                         if(task.isSuccessful()){
                             //로그인 성공!
                             Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+                            //this = getBaseContext() = Activity Context
+                            //getApplicationContext() = getApplication() = Application Context
+                            // 위와 같이 this대신 getBaseContext()를 사용하기도 한다.
+                            intent.putExtra("strEmail", strEmail);
+                            intent.putExtra("strPwd", strPwd);
+                            // 다른 액티비티로 넘길때 intent에 담아서 넘긴다! 집어 넣을때는 위와 같이 putExtra 사용함!
+
                             startActivity(intent);
                             finish(); //현재 액티비티 파괴! (로그인이 완료되면 로그인을 다시할일이 없기 때문)
                         }else{
