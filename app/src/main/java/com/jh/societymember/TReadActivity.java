@@ -1,6 +1,8 @@
 package com.jh.societymember;
 
-public class TReadActivity {
+import androidx.appcompat.app.AppCompatActivity;
 
+public class TReadActivity extends AppCompatActivity {
 
 }
+
