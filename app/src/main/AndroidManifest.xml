@@ -37,6 +37,11 @@
             android:exported="false">
 
         </activity>
+        <activity
+            android:name=".TReadActivity"
+            android:exported="false">
+
+        </activity>
     </application>
 
 </manifest>

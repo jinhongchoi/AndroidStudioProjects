@@ -54,6 +54,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent= new Intent(MainActivity.this, TReadActivity.class);
+                startActivity(intent);
             }
         });// end btn_TRead
 
