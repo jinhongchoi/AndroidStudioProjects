@@ -26,8 +26,10 @@ public class Adapter extends RecyclerView.Adapter<ViewHolder> {
         Context context= parent.getContext();
         LayoutInflater inflater= (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         View view = inflater.inflate(R.layout.item_list, parent, false);
+
+        ViewHolder viewHolder=new ViewHolder(context, view);
         
-        return viewholder;
+        return viewHolder;
     }
 
     @Override
