@@ -45,7 +45,8 @@ public class MainActivity extends AppCompatActivity {
         btn_TMInsert.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent= new Intent(MainActivity.this, TMInsertActivity.class);
+                Intent intent3= new Intent(MainActivity.this, TMInsertActivity.class);
+                startActivity(intent3);
             }
         });// end btn_TMInsert
 
@@ -53,8 +54,8 @@ public class MainActivity extends AppCompatActivity {
         btn_TRead.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent= new Intent(MainActivity.this, TReadActivity.class);
-                startActivity(intent);
+                Intent intent4= new Intent(MainActivity.this, TReadActivity.class);
+                startActivity(intent4);
             }
         });// end btn_TRead
 
